@@ -31,10 +31,15 @@
 
     <img class="mario" src="./assets/mario.png">
 
-    <form action="https//formsubmit.co/virotico@gmail.com" method="POST" class="fale-conosco"> Fale Conosco
-        <input id="nome" placeholder="Seu nome" type="text" required>
-        <input id="fone" placeholder="Seu telefone" type="tel" required>
-        <textarea id="texto" placeholder="Digite seu problema aqui"></textarea>
+    <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco">
+
+        <h2>Fale conosco</h2>
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="text" name="name" placeholder="Seu nome"  required>
+        <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
+        <textarea type="textarea" name="textarea" placeholder="Digite seu problema aqui"></textarea>
         <button onclick="sumirForm()">Enviar Formulario</button>
     </form>
 
@@ -43,23 +48,5 @@
 </body>
 
 <script src="./script.js"></script>
-
-<script>
-    function enviarForm(e) {
-        event.preventDefault();
-
-        var nome = document.getElementById("nome").value;
-        var fone = document.getElementById("fone").value;
-        var mensagem = document.getElementById("texto").value;
-
-        var dadosFormulario = {
-            nome: nome,
-            email: fone,
-            mensagem: texto
-        };
-
-        console.log("Dados do Formulário:", dadosFormulario);
-    }
-</script>
 
 </html>
