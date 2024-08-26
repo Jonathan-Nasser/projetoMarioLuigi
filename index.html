@@ -13,10 +13,19 @@
 
 <body>
 
-    <div class="caixa-video-mario">
-        <video src="./assets/video.mp4" autoplay muted loop> </video>
-        <div class="mascara"></div>
-    </div>
+    <header>
+        <img src="./assets/logo-header.png" class="logo-header">
+
+        <ul>
+            <li>
+                <a href="">Home</a>
+                <a href="">Home</a>
+                <a href="">Home</a>
+            </li>
+        </ul>
+    </header>
+
+    
 
     <div class="principal">
 
@@ -34,25 +43,28 @@
             <img class="mario" src="./assets/mario.png">
         </div>
 
+        <div class="caixa-video-mario">
+            <video src="./assets/video.mp4" autoplay muted loop> </video>
+            <div class="mascara"></div>
+        </div>
+
+        <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco">
+
+            <h2>Fale conosco</h2>
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
+            <textarea type="textarea" name="textarea" placeholder="Digite seu problema aqui"></textarea>
+            <button onclick="sumirForm()">Enviar Formulario</button>
+        </form>
+
+        <div class="mascara-form"></div>
+
     </div>
 
-
-    <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco">
-
-        <h2>Fale conosco</h2>
-
-        <input type="hidden" name="_captcha" value="false">
-
-        <input type="text" name="name" placeholder="Seu nome" required>
-        <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
-        <textarea type="textarea" name="textarea" placeholder="Digite seu problema aqui"></textarea>
-        <button onclick="sumirForm()">Enviar Formulario</button>
-    </form>
-
-    <div class="mascara-form"></div>
-
 </body>
-
 
 <script src="./script.js"> </script>
 
