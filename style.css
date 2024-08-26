@@ -14,11 +14,17 @@
 }
 
 body {
-    display: flex;
     height: 100vh;
-    align-items: center;
-    /* alinha ao centro no sentido vertical */
+}
+
+
+
+.principal {
+    display: flex;
+    align-items: center;     /* alinha ao centro no sentido vertical */
     justify-content: space-evenly;
+    padding: 100px;
+    height: 100vh;
 }
 
 p {
@@ -26,6 +32,7 @@ p {
 }
 
 .caixa-principal {
+    
     width: 40%;
 }
 

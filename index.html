@@ -18,18 +18,24 @@
         <div class="mascara"></div>
     </div>
 
-    <div class="caixa-principal">
-        <img class="logo" src="./assets/logo.png" alt="Foto do Super Mário">
-        <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas com Estilo</p>
-        <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
-            ou
-            torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
-            vocês
-            os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
-        <button onclick="chamarForm()">ENTRE EM CONTATO</button>
+    <div class="principal">
+
+        <div class="caixa-principal">
+            <img class="logo" src="./assets/logo.png" alt="Foto do Super Mário">
+
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas com Estilo</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+            <button onclick="chamarForm()">ENTRE EM CONTATO</button>
+        </div>
+
+        <div>
+            <img class="mario" src="./assets/mario.png">
+        </div>
+
     </div>
 
-    <img class="mario" src="./assets/mario.png">
 
     <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco">
 
@@ -37,7 +43,7 @@
 
         <input type="hidden" name="_captcha" value="false">
 
-        <input type="text" name="name" placeholder="Seu nome"  required>
+        <input type="text" name="name" placeholder="Seu nome" required>
         <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
         <textarea type="textarea" name="textarea" placeholder="Digite seu problema aqui"></textarea>
         <button onclick="sumirForm()">Enviar Formulario</button>
@@ -47,6 +53,7 @@
 
 </body>
 
-<script src="./script.js"></script>
+
+<script src="./script.js"> </script>
 
 </html>
