@@ -7,22 +7,28 @@
 
 header {
     display: flex;
-    padding: auto;
+    gap: 30px;
     align-items: center;
+    margin: 30px 0 30px 30px;
 }
 
-.logo-header {
-    width: 5%;
-    margin: 15px;
+header img {
+    height: 100px;
 }
 
-a {   
-    font-size: 30px;
+header a {   
+    font-size: 24px;    
     color: white;
+    cursor: pointer;
     text-decoration: none;
     /* text-transform: uppercase; */
+}
 
-
+header a:hover {
+   color: #c51111;
+   font-size: 26px;
+   font-weight: bold;
+   transition: 0.15s  ease-in-out;
 }
 
 body {
@@ -44,7 +50,7 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 350px;
 }
 
 .mario {
@@ -76,14 +82,14 @@ video {
 
 p {
     color: white;
-    font-size: 19px;
+    font-size: 22px;
     margin-top: 10px;
 }
 
 button {
-    height: 40px;
+    height: 45px;
     width: 200px;
-    background-color: #c31111;
+    background-color: #c51111;
     border: none;
     border-radius: 4px;
     color: white;
@@ -135,4 +141,12 @@ textarea {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     visibility: hidden;
     z-index: 3;
+}
+
+.link-whatsapp img { /* procura no pai a tag filha e aplica */
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
 }
