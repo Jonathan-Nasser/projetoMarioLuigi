@@ -37,9 +37,9 @@ body {
 
 .principal {
     display: flex;
-    align-items: center;     /* alinha ao centro no sentido vertical */
+    /* align-items: center;     alinha ao centro no sentido vertical */
     justify-content: space-evenly;
-    padding: 100px;
+    padding: 150px;
     height: 100vh;
     text-align: justify;
 }
@@ -107,10 +107,11 @@ button:hover {
     background-color:white;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    border-radius: 10px;
     gap: 20px;
     position: fixed;
+    padding: 20px;
+    border-radius: 10px;
+    top: 30%;
     left: -320px;
     transition: 1s;
     z-index: 4;
@@ -146,7 +147,7 @@ textarea {
 .link-whatsapp img { /* procura no pai a tag filha e aplica */
     height: 70px;
     position: fixed;
-    right: 10px;
+    right: 90px;
     bottom: 10px;
 
 }

@@ -3,8 +3,8 @@ let mascara = document.querySelector (".mascara-form")
 
 
 function chamarForm() {
-    formulario.style.left = "700px"
-    mascara.style.visibility = "visible"
+    formulario.style.left = "900px"
+    mascara.style.visibility = "visibility"
 }
 
 function sumirForm() {
