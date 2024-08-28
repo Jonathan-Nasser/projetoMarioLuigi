@@ -13,12 +13,19 @@
 
 <body>
 
-    <header>
+    <div class="mascara-form" onclick="sumirForm()"></div>
+
+    <div class="menu">
         <img src="./assets/logo-header.png" class="logo-header">
         <a>Home</a>
         <a>Nossos Serviços</a>
         <a>Fale Conosco</a>
-    </header>
+    </div>
+    
+    <div class="caixa-video-mario">
+        <video src="./assets/video.mp4" autoplay muted loop> </video>
+        <div class="mascara"></div>
+    </div>
 
     <div class="principal">
 
@@ -42,25 +49,25 @@
             <div class="mascara"></div>
         </div>
 
-        <!-- <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco"> -->
 
 
-        <form class="fale-conosco">
+        <form action="https://formsubmit.co/virotico@gmail.com" method="POST" target="_blank" class="fale-conosco">
 
-            <h2>Fale conosco</h2>
+                <h2>Fale conosco</h2>
 
-            <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_captcha" value="false">
 
-            <input type="text" name="name" placeholder="Seu nome" required>
-            <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
-            <textarea type="textarea" name="textarea" placeholder="Digite seu problema aqui"></textarea>
-            <button onclick="sumirForm()">Enviar Formulario</button>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="tel" name="telefone" placeholder="Seu telefone" type="tel" required>
+                <textarea type="textarea" name="mensagem" placeholder="Digite seu problema aqui"></textarea>
+                <button onclick="sumirForm()">Enviar Formulario</button>
         </form>
 
-        <div class="mascara-form"></div>
+    </div>
 
     </div>
-    <a href="https://web.whatsapp.com/" class="link-whatsapp" target="_blank">
+    <a href="https://web.whatsapp.com/" class="link-whatsapp">
+        class="link-whatsapp" target="_blank">
         <img src="./assets/whatsapp.png" alt="link para o whatsapp">
     </a>
 
